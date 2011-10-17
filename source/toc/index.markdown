@@ -13,28 +13,28 @@ footer: true
 ### 什麼東西應該放在 View
 
 - [什麼是 helper](/what-is-helper)
-- 什麼是 partial
-- 什麼是 collection partial
-- 什麼東西應該放在 partial / 什麼東西應該放在 helper
-- yield in view
-- 不應該放在 view 裡的東西
-- form
-- essential helpers
+- [什麼是 partial](what-is-collection-of-partial)
+- [什麼是 collection partial](what-is-collection-of-partial)
+- [什麼東西應該放在 partial / 什麼東西應該放在 helper](/partial-or-helper)
+- [yield in view](/yield-in-view)
+- [不應該放在 view 裡的東西](/things-shouldnt-in-view)
+- [form](/form)
+- [essential helpers](/essential-helpers)
 - helper pattern's
 
 ### 什麼東西應該放在 controller
-- filters before_filter
-- render template
-- render layout
-- render text
-- render options
-- redirect_to 與 render
-- respond_to 與 respond_with 
-- builders
+- [before_filter](/before-filter)
+- [render template](render-template)
+- [render layout](render-layout)
+- [render text](/render-text)
+- [render options](/render-options)
+- [redirect_to 與 render](/redirect-to-and-render)
+- [respond_to 與 respond_with](/respond-to-and-respond-with)
+- [builders](/builders)
 
 ### 什麼東西應該放在 model
 
-- has_many through
+- has_many :through
 - validation
 - scope
 - ids
