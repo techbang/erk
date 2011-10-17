@@ -4,7 +4,7 @@
   <title><![CDATA[Essential Ruby / Rails Knowledge]]></title>
   <link href="http://techbang.github.com/erk/atom.xml" rel="self"/>
   <link href="http://techbang.github.com/erk/"/>
-  <updated>2011-10-17T16:46:26+08:00</updated>
+  <updated>2011-10-17T16:49:57+08:00</updated>
   <id>http://techbang.github.com/erk/</id>
   <author>
     <name><![CDATA[xdite]]></name>
@@ -67,8 +67,8 @@
 <h2>參考資料</h2>
 
 <ul>
-<li><a href="http://redmine.techbang.com.tw/attachments/3776/CustomRailsHelpers.pdf">http://redmine.techbang.com.tw/attachments/3776/CustomRailsHelpers.pdf</a>
-Ruby for Rails－Rails 開發者必備的 Ruby 學習手冊 (Ruby for Rails: Ruby Techniques for Rails Developers)</li>
+<li><a href="http://redmine.techbang.com.tw/attachments/3776/CustomRailsHelpers.pdf">http://redmine.techbang.com.tw/attachments/3776/CustomRailsHelpers.pdf</a></li>
+<li>Ruby for Rails－Rails 開發者必備的 Ruby 學習手冊 (Ruby for Rails: Ruby Techniques for Rails Developers)</li>
 </ul>
 
 ]]></content>
