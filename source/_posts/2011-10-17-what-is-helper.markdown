@@ -41,4 +41,4 @@ categories:
 ## 參考資料
 
 * <http://redmine.techbang.com.tw/attachments/3776/CustomRailsHelpers.pdf>
-Ruby for Rails－Rails 開發者必備的 Ruby 學習手冊 (Ruby for Rails: Ruby Techniques for Rails Developers)
+* Ruby for Rails－Rails 開發者必備的 Ruby 學習手冊 (Ruby for Rails: Ruby Techniques for Rails Developers)
