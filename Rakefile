@@ -1,3 +1,4 @@
+# encoding: utf-8
 require "rubygems"
 require "bundler/setup"
 require "stringex"
@@ -107,6 +108,11 @@ task :new_post, :title do |t, args|
     post.puts "comments: true"
     post.puts "categories: "
     post.puts "---"
+    post.puts "## 說明"
+    post.puts "## 使用情境"
+    post.puts "## 使用方式"
+    post.puts "## 優點"
+    post.puts "## 參考資料"
   end
 end
 
