@@ -12,7 +12,7 @@ footer: true
 
 ### 什麼東西應該放在 View
 
-- 什麼是 helper
+- [什麼是 helper](/what-is-helper)
 - 什麼是 partial
 - 什麼是 collection partial
 - 什麼東西應該放在 partial / 什麼東西應該放在 helper
