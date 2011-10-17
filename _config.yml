@@ -3,16 +3,16 @@
 # ----------------------- #
 
 url: http://xdworks.github.com/erk
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+title: Essential Ruby / Rails Knowledge
+subtitle: something you should know
+author: xdite
 simple_search: http://google.com/search
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: xuite.joke@gmail.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -20,7 +20,7 @@ email:
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
 root: /
-permalink: /blog/:year/:month/:day/:title/
+permalink: /:title/
 source: source
 destination: public
 plugins: plugins
