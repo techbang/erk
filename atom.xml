@@ -4,7 +4,7 @@
   <title><![CDATA[Essential Ruby / Rails Knowledge]]></title>
   <link href="http://techbang.github.com/erk/atom.xml" rel="self"/>
   <link href="http://techbang.github.com/erk/"/>
-  <updated>2011-10-17T16:05:10+08:00</updated>
+  <updated>2011-10-17T16:39:29+08:00</updated>
   <id>http://techbang.github.com/erk/</id>
   <author>
     <name><![CDATA[xdite]]></name>
@@ -12,5 +12,66 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[什麼是 helper]]></title>
+    <link href="http://techbang.github.com/erk/what-is-helper/"/>
+    <updated>2011-10-17T16:06:00+08:00</updated>
+    <id>http://techbang.github.com/erk/what-is-helper</id>
+    <content type="html"><![CDATA[<h2>說明</h2>
+
+<p>從名稱來看，就是可以幫助你的人！但是要幫助什麼呢？</p>
+
+<ul>
+<li>Simple HTML builders</li>
+<li>form builders</li>
+<li>error handling</li>
+<li>Ajax links</li>
+<li>Prototype wrappers
+&#8230;..</li>
+</ul>
+
+
+<p>總之，一個「好」的 Rails app 一定需要很多 helpers！</p>
+
+<h2>使用情境</h2>
+
+<ul>
+<li>當你的 view 出現 logic</li>
+<li>當你有重覆的程式碼出現的時候
+
+<ul>
+<li>HTML</li>
+<li>Javascript</li>
+<li>Options to helper</li>
+</ul>
+</li>
+</ul>
+
+
+<h2>使用方式</h2>
+
+<p>當你建造 controller 檔，Rails 會幫你建立一個 helper 檔 （當然也可以自己新增）
+在 helper 檔，可以撰寫各種 Ruby 函式；這些函式可以在 view 裡面使用！</p>
+
+<h2>優點</h2>
+
+<ul>
+<li>Don&#8217;t repeat yourself（DRY）程式碼不重複</li>
+<li>Good Encapsulation，好的封裝性</li>
+<li>提供view模板良好的組織</li>
+<li>修改程式碼方便</li>
+</ul>
+
+
+<h2>參考資料</h2>
+
+<ul>
+<li><a href="http://redmine.techbang.com.tw/attachments/3776/CustomRailsHelpers.pdf">http://redmine.techbang.com.tw/attachments/3776/CustomRailsHelpers.pdf</a>
+Ruby for Rails－Rails 開發者必備的 Ruby 學習手冊 (Ruby for Rails: Ruby Techniques for Rails Developers)</li>
+</ul>
+
+]]></content>
+  </entry>
   
 </feed>

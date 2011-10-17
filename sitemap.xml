@@ -1,15 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>http://techbang.github.com/erk/what-is-helper/</loc>
+        <lastmod>2011-10-17T16:39:23+08:00</lastmod>
+    </url>
+    <url>
         <loc>http://techbang.github.com/erk/blog/archives/</loc>
-        <lastmod>2011-10-17T15:43:51+08:00</lastmod>
+        <lastmod>2011-10-17T16:39:23+08:00</lastmod>
     </url>
     <url>
         <loc>http://techbang.github.com/erk/</loc>
-        <lastmod>2011-10-17T15:43:51+08:00</lastmod>
+        <lastmod>2011-10-17T16:39:23+08:00</lastmod>
     </url>
     <url>
         <loc>http://techbang.github.com/erk/toc/</loc>
-        <lastmod>2011-10-17T16:00:07+08:00</lastmod>
+        <lastmod>2011-10-17T16:37:17+08:00</lastmod>
     </url>
 </urlset>

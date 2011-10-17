@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>目錄 - Essential Ruby / Rails Knowledge</title>
+  <title>什麼是 helper - Essential Ruby / Rails Knowledge</title>
   <meta name="author" content="xdite">
 
   
-  <meta name="description" content="        目錄      Oct 17th, 2011      1. Rails MVC什麼東西應該放在 View什麼是 helper什麼是 partial什麼是 collection partial什麼東西應該放在 partial / 什麼東西應該放在 helperyield in ...">
+  <meta name="description" content="說明從名稱來看，就是可以幫助你的人！但是要幫助什麼呢？Simple HTML buildersform builderserror handlingAjax linksPrototype wrappers&#8230;..總之，一個「好」的 Rails app 一定需要很多 helpers！使...">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://techbang.github.com/erk/toc/">
+  <link rel="canonical" href="http://techbang.github.com/erk/what-is-helper/">
   <link href="/erk/favicon.png" rel="icon">
   <link href="/erk/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/erk/javascripts/modernizr-2.0.js"></script>
@@ -59,119 +59,15 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">目錄</h1>
-    <p class="meta">
-
-
-
-
-
-  
-
-
-
-<time datetime="2011-10-17T15:55:00+08:00" pubdate  data-updated="true" >Oct 17<span>th</span>, 2011</time></p>
-  </header>
-  
-  <h2>1. Rails MVC</h2>
-
-<h3>什麼東西應該放在 View</h3>
-
-<ul>
-<li><a href="/erk/what-is-helper">什麼是 helper</a></li>
-<li>什麼是 partial</li>
-<li>什麼是 collection partial</li>
-<li>什麼東西應該放在 partial / 什麼東西應該放在 helper</li>
-<li>yield in view</li>
-<li>不應該放在 view 裡的東西</li>
-<li>form</li>
-<li>essential helpers</li>
-<li>helper pattern&#8217;s</li>
-</ul>
-
-
-<h3>什麼東西應該放在 controller</h3>
-
-<ul>
-<li>filters before_filter</li>
-<li>render template</li>
-<li>render layout</li>
-<li>render text</li>
-<li>render options</li>
-<li>redirect_to 與 render</li>
-<li>respond_to 與 respond_with</li>
-<li>builders</li>
-</ul>
-
-
-<h3>什麼東西應該放在 model</h3>
-
-<ul>
-<li>has_many through</li>
-<li>validation</li>
-<li>scope</li>
-<li>ids</li>
-<li>collect and id</li>
-<li>includes</li>
-<li>counter_cache</li>
-<li>STI</li>
-<li>Polymorphic Assoiciaion</li>
-<li>不要把該放在 helper 的東西放在 model 裡</li>
-<li>refactor controller code to model</li>
-</ul>
-
-
-<h2>2. 關於 Rails</h2>
-
-<ul>
-<li>RESTful</li>
-<li>Routing</li>
-<li>Rack</li>
-<li>Bundler</li>
-<li>Unobtrusive Javascript</li>
-<li>I18n</li>
-</ul>
-
-
-<h2>3. 關於 Ruby</h2>
-
-<ul>
-<li>Ruby syntax</li>
-<li>String / Array / Hash</li>
-<li>map</li>
-<li>lambda</li>
-<li>self</li>
-<li>block</li>
-<li>instance method / class method
-
-<ul>
-<li><a href="http://railstips.org/blog/archives/2009/05/11/class-and-instance-methods-in-ruby/">http://railstips.org/blog/archives/2009/05/11/class-and-instance-methods-in-ruby/</a></li>
-</ul>
-</li>
-<li>instance variable / class variable
-
-<ul>
-<li><a href="http://railstips.org/blog/archives/2006/11/18/class-and-instance-variables-in-ruby/">http://railstips.org/blog/archives/2006/11/18/class-and-instance-variables-in-ruby/</a></li>
-</ul>
-</li>
-<li>Mixin / Extend / Inheritance
-
-<ul>
-<li><a href="http://railstips.org/blog/archives/2009/05/15/include-vs-extend-in-ruby/">http://railstips.org/blog/archives/2009/05/15/include-vs-extend-in-ruby/</a></li>
-</ul>
-</li>
-<li>override</li>
-</ul>
-
-
-  
-    <footer>
+    
+      <h1 class="entry-title">什麼是 Helper</h1>
+    
+    
       <p class="meta">
         
-        
 
 
 
@@ -181,13 +77,95 @@
 
 
 
-<time datetime="2011-10-17T15:55:00+08:00" pubdate  data-updated="true" >Oct 17<span>th</span>, 2011</time>
+<time datetime="2011-10-17T16:06:00+08:00" pubdate  data-updated="true" >Oct 17<span>th</span>, 2011</time>
         
       </p>
+    
+  </header>
+
+
+<div class="entry-content"><h2>說明</h2>
+
+<p>從名稱來看，就是可以幫助你的人！但是要幫助什麼呢？</p>
+
+<ul>
+<li>Simple HTML builders</li>
+<li>form builders</li>
+<li>error handling</li>
+<li>Ajax links</li>
+<li>Prototype wrappers
+&#8230;..</li>
+</ul>
+
+
+<p>總之，一個「好」的 Rails app 一定需要很多 helpers！</p>
+
+<h2>使用情境</h2>
+
+<ul>
+<li>當你的 view 出現 logic</li>
+<li>當你有重覆的程式碼出現的時候
+
+<ul>
+<li>HTML</li>
+<li>Javascript</li>
+<li>Options to helper</li>
+</ul>
+</li>
+</ul>
+
+
+<h2>使用方式</h2>
+
+<p>當你建造 controller 檔，Rails 會幫你建立一個 helper 檔 （當然也可以自己新增）
+在 helper 檔，可以撰寫各種 Ruby 函式；這些函式可以在 view 裡面使用！</p>
+
+<h2>優點</h2>
+
+<ul>
+<li>Don&#8217;t repeat yourself（DRY）程式碼不重複</li>
+<li>Good Encapsulation，好的封裝性</li>
+<li>提供view模板良好的組織</li>
+<li>修改程式碼方便</li>
+</ul>
+
+
+<h2>參考資料</h2>
+
+<ul>
+<li><a href="http://redmine.techbang.com.tw/attachments/3776/CustomRailsHelpers.pdf">http://redmine.techbang.com.tw/attachments/3776/CustomRailsHelpers.pdf</a>
+Ruby for Rails－Rails 開發者必備的 Ruby 學習手冊 (Ruby for Rails: Ruby Techniques for Rails Developers)</li>
+</ul>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
       
-        <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://techbang.github.com/erk/toc/index.html" data-via="" data-counturl="http://techbang.github.com/erk/toc/index.html" >Tweet</a>
+
+<span class="byline author vcard">Posted by <span class="fn">xdite</span></span>
+
+      
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-10-17T16:06:00+08:00" pubdate  data-updated="true" >Oct 17<span>th</span>, 2011</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://techbang.github.com/erk/what-is-helper/" data-via="" data-counturl="http://techbang.github.com/erk/what-is-helper/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -197,9 +175,12 @@
   
 </div>
 
+    
+    <p class="meta">
       
-    </footer>
-  
+      
+    </p>
+  </footer>
 </article>
 
 </div>
