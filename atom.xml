@@ -4,7 +4,7 @@
   <title><![CDATA[Essential Ruby / Rails Knowledge]]></title>
   <link href="http://techbang.github.com/erk/atom.xml" rel="self"/>
   <link href="http://techbang.github.com/erk/"/>
-  <updated>2011-10-17T16:49:57+08:00</updated>
+  <updated>2011-10-18T00:35:37+08:00</updated>
   <id>http://techbang.github.com/erk/</id>
   <author>
     <name><![CDATA[xdite]]></name>
@@ -12,6 +12,318 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[redirect_to and respond_with]]></title>
+    <link href="http://techbang.github.com/erk/redirect-to-and-respond-with/"/>
+    <updated>2011-10-18T00:24:00+08:00</updated>
+    <id>http://techbang.github.com/erk/redirect-to-and-respond-with</id>
+    <content type="html"><![CDATA[<h2>說明</h2>
+
+<h2>使用情境</h2>
+
+<h2>使用方式</h2>
+
+<h2>優點</h2>
+
+<h2>參考資料</h2>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[builders]]></title>
+    <link href="http://techbang.github.com/erk/builders/"/>
+    <updated>2011-10-18T00:24:00+08:00</updated>
+    <id>http://techbang.github.com/erk/builders</id>
+    <content type="html"><![CDATA[<h2>說明</h2>
+
+<h2>使用情境</h2>
+
+<h2>使用方式</h2>
+
+<h2>優點</h2>
+
+<h2>參考資料</h2>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[render text]]></title>
+    <link href="http://techbang.github.com/erk/render-text/"/>
+    <updated>2011-10-18T00:23:00+08:00</updated>
+    <id>http://techbang.github.com/erk/render-text</id>
+    <content type="html"><![CDATA[<h2>說明</h2>
+
+<h2>使用情境</h2>
+
+<h2>使用方式</h2>
+
+<h2>優點</h2>
+
+<h2>參考資料</h2>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[render_template]]></title>
+    <link href="http://techbang.github.com/erk/render-template/"/>
+    <updated>2011-10-18T00:23:00+08:00</updated>
+    <id>http://techbang.github.com/erk/render-template</id>
+    <content type="html"><![CDATA[<h2>說明</h2>
+
+<h2>使用情境</h2>
+
+<h2>使用方式</h2>
+
+<h2>優點</h2>
+
+<h2>參考資料</h2>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[render options]]></title>
+    <link href="http://techbang.github.com/erk/render-options/"/>
+    <updated>2011-10-18T00:23:00+08:00</updated>
+    <id>http://techbang.github.com/erk/render-options</id>
+    <content type="html"><![CDATA[<h2>說明</h2>
+
+<h2>使用情境</h2>
+
+<h2>使用方式</h2>
+
+<h2>優點</h2>
+
+<h2>參考資料</h2>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[render_layout]]></title>
+    <link href="http://techbang.github.com/erk/render-layout/"/>
+    <updated>2011-10-18T00:23:00+08:00</updated>
+    <id>http://techbang.github.com/erk/render-layout</id>
+    <content type="html"><![CDATA[<h2>說明</h2>
+
+<h2>使用情境</h2>
+
+<h2>使用方式</h2>
+
+<h2>優點</h2>
+
+<h2>參考資料</h2>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[redirect_to and render]]></title>
+    <link href="http://techbang.github.com/erk/redirect-to-and-render/"/>
+    <updated>2011-10-18T00:23:00+08:00</updated>
+    <id>http://techbang.github.com/erk/redirect-to-and-render</id>
+    <content type="html"><![CDATA[<h2>說明</h2>
+
+<h2>使用情境</h2>
+
+<h2>使用方式</h2>
+
+<h2>優點</h2>
+
+<h2>參考資料</h2>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[things shouldnt in view]]></title>
+    <link href="http://techbang.github.com/erk/things-shouldnt-in-view/"/>
+    <updated>2011-10-18T00:20:00+08:00</updated>
+    <id>http://techbang.github.com/erk/things-shouldnt-in-view</id>
+    <content type="html"><![CDATA[<h2>說明</h2>
+
+<h2>使用情境</h2>
+
+<h2>使用方式</h2>
+
+<h2>優點</h2>
+
+<h2>參考資料</h2>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[form]]></title>
+    <link href="http://techbang.github.com/erk/form/"/>
+    <updated>2011-10-18T00:20:00+08:00</updated>
+    <id>http://techbang.github.com/erk/form</id>
+    <content type="html"><![CDATA[<h2>說明</h2>
+
+<h2>使用情境</h2>
+
+<h2>使用方式</h2>
+
+<h2>優點</h2>
+
+<h2>參考資料</h2>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[essential helpers]]></title>
+    <link href="http://techbang.github.com/erk/essential-helpers/"/>
+    <updated>2011-10-18T00:20:00+08:00</updated>
+    <id>http://techbang.github.com/erk/essential-helpers</id>
+    <content type="html"><![CDATA[<h2>說明</h2>
+
+<h2>使用情境</h2>
+
+<h2>使用方式</h2>
+
+<h2>優點</h2>
+
+<h2>參考資料</h2>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[before_filter]]></title>
+    <link href="http://techbang.github.com/erk/before-filter/"/>
+    <updated>2011-10-18T00:20:00+08:00</updated>
+    <id>http://techbang.github.com/erk/before-filter</id>
+    <content type="html"><![CDATA[<h2>說明</h2>
+
+<h2>使用情境</h2>
+
+<h2>使用方式</h2>
+
+<h2>優點</h2>
+
+<h2>參考資料</h2>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[yield in view]]></title>
+    <link href="http://techbang.github.com/erk/yield-in-view/"/>
+    <updated>2011-10-18T00:19:00+08:00</updated>
+    <id>http://techbang.github.com/erk/yield-in-view</id>
+    <content type="html"><![CDATA[<h2>說明</h2>
+
+<h2>使用情境</h2>
+
+<h2>使用方式</h2>
+
+<h2>優點</h2>
+
+<h2>參考資料</h2>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[what is collection of partial]]></title>
+    <link href="http://techbang.github.com/erk/what-is-collection-of-partial/"/>
+    <updated>2011-10-18T00:19:00+08:00</updated>
+    <id>http://techbang.github.com/erk/what-is-collection-of-partial</id>
+    <content type="html"><![CDATA[<h2>說明</h2>
+
+<h2>使用情境</h2>
+
+<h2>使用方式</h2>
+
+<h2>優點</h2>
+
+<h2>參考資料</h2>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[partial or helper]]></title>
+    <link href="http://techbang.github.com/erk/partial-or-helper/"/>
+    <updated>2011-10-18T00:19:00+08:00</updated>
+    <id>http://techbang.github.com/erk/partial-or-helper</id>
+    <content type="html"><![CDATA[<h2>說明</h2>
+
+<h2>使用情境</h2>
+
+<h2>使用方式</h2>
+
+<h2>優點</h2>
+
+<h2>參考資料</h2>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[what is partial]]></title>
+    <link href="http://techbang.github.com/erk/what-is-partial/"/>
+    <updated>2011-10-18T00:12:00+08:00</updated>
+    <id>http://techbang.github.com/erk/what-is-partial</id>
+    <content type="html"><![CDATA[<h2>說明</h2>
+
+<p>它是一個模板（Template），就像其他的模板一樣，但是不一樣的地方，它可以傳遞參數，稱為局部樣板（Partial）！</p>
+
+<p>它可以被其他模板（Template）或者Action Controller呼叫，</p>
+
+<h2>使用情境</h2>
+
+<p>有太多重覆的程式碼在你的 View 裡面時</p>
+
+<h2>使用方式</h2>
+
+<p>建立 partial 檔案時，必須以底線開頭 _</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="c1"># 路徑通常是 app/views/_form_post.html.rb</span>
+</span><span class='line'> <span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;&lt;</span><span class="sx">%= f.label :subject, &quot;標題&quot; %&gt;</span>
+</span><span class='line'><span class="sx"> &lt;%=</span> <span class="n">f</span><span class="o">.</span><span class="n">text_field</span> <span class="ss">:subject</span> <span class="sx">%&gt;&lt;/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'> <span class="o">&lt;</span><span class="sx">%= f.label :content, &quot;內容&quot; %&gt;</span>
+</span><span class='line'><span class="sx"> &lt;p&gt;&lt;%=</span> <span class="n">f</span><span class="o">.</span><span class="n">text_area</span> <span class="ss">:content</span> <span class="sx">%&gt;&lt;/p&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>呼叫時不加底線</li>
+</ul>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="o">&lt;</span><span class="sx">%= render :partial =</span><span class="o">&gt;</span> <span class="n">form_post</span><span class="s2">&quot; %&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>可以傳實例變數（@開頭的變數）</li>
+</ul>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="o">&lt;</span><span class="sx">%= render :partial =</span><span class="o">&gt;</span> <span class="s2">&quot;hot_keywords&quot;</span><span class="p">,</span> <span class="ss">:locals</span> <span class="o">=&gt;</span> <span class="p">{</span><span class="ss">:category</span> <span class="o">=&gt;</span> <span class="vi">@category</span><span class="p">,</span> <span class="ss">:a</span> <span class="o">=&gt;</span> <span class="mi">1</span><span class="p">}</span> <span class="o">%&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>優點</h2>
+
+<ul>
+<li>Don&#8217;t repeat yourself（DRY）程式碼不重複</li>
+<li>程式修改會比較清楚</li>
+<li>Partial 樣板比較容易被重複使用</li>
+</ul>
+
+
+<h2>參考資料</h2>
+
+<ul>
+<li>http://api.rubyonrails.org/classes/ActionView/Partials.html</li>
+<li>http://ionrails.com/2009/08/08/rails-partial-templates/</li>
+<li>http://ihower.tw/rails3/actionview.html</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[什麼是 helper]]></title>

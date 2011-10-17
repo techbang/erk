@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>什麼是 helper - Essential Ruby / Rails Knowledge</title>
+  <title>what is partial - Essential Ruby / Rails Knowledge</title>
   <meta name="author" content="xdite">
 
   
-  <meta name="description" content="說明從名稱來看，就是可以幫助你的人！但是要幫助什麼呢？Simple HTML buildersform builderserror handlingAjax linksPrototype wrappers&#8230;..總之，一個「好」的 Rails app 一定需要很多 helpers！使...">
+  <meta name="description" content="說明它是一個模板（Template），就像其他的模板一樣，但是不一樣的地方，它可以傳遞參數，稱為局部樣板（Partial）！它可以被其他模板（Template）或者Action Controller呼叫，使用情境有太多重覆的程式碼在你的 View 裡面時使用方式建立 partial 檔案時，必...">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://techbang.github.com/erk/what-is-helper/">
+  <link rel="canonical" href="http://techbang.github.com/erk/what-is-partial/">
   <link href="/erk/favicon.png" rel="icon">
   <link href="/erk/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/erk/javascripts/modernizr-2.0.js"></script>
@@ -63,7 +63,7 @@
   
   <header>
     
-      <h1 class="entry-title">什麼是 Helper</h1>
+      <h1 class="entry-title">What Is Partial</h1>
     
     
       <p class="meta">
@@ -77,7 +77,7 @@
 
 
 
-<time datetime="2011-10-17T16:06:00+08:00" pubdate  data-updated="true" >Oct 17<span>th</span>, 2011</time>
+<time datetime="2011-10-18T00:12:00+08:00" pubdate  data-updated="true" >Oct 18<span>th</span>, 2011</time>
         
       </p>
     
@@ -86,55 +86,68 @@
 
 <div class="entry-content"><h2>說明</h2>
 
-<p>從名稱來看，就是可以幫助你的人！但是要幫助什麼呢？</p>
+<p>它是一個模板（Template），就像其他的模板一樣，但是不一樣的地方，它可以傳遞參數，稱為局部樣板（Partial）！</p>
 
-<ul>
-<li>Simple HTML builders</li>
-<li>form builders</li>
-<li>error handling</li>
-<li>Ajax links</li>
-<li>Prototype wrappers
-&#8230;..</li>
-</ul>
-
-
-<p>總之，一個「好」的 Rails app 一定需要很多 helpers！</p>
+<p>它可以被其他模板（Template）或者Action Controller呼叫，</p>
 
 <h2>使用情境</h2>
 
-<ul>
-<li>當你的 view 出現 logic</li>
-<li>當你有重覆的程式碼出現的時候
-
-<ul>
-<li>HTML</li>
-<li>Javascript</li>
-<li>Options to helper</li>
-</ul>
-</li>
-</ul>
-
+<p>有太多重覆的程式碼在你的 View 裡面時</p>
 
 <h2>使用方式</h2>
 
-<p>當你建造 controller 檔，Rails 會幫你建立一個 helper 檔 （當然也可以自己新增）
-在 helper 檔，可以撰寫各種 Ruby 函式；這些函式可以在 view 裡面使用！</p>
+<p>建立 partial 檔案時，必須以底線開頭 _</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="c1"># 路徑通常是 app/views/_form_post.html.rb</span>
+</span><span class='line'> <span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;&lt;</span><span class="sx">%= f.label :subject, &quot;標題&quot; %&gt;</span>
+</span><span class='line'><span class="sx"> &lt;%=</span> <span class="n">f</span><span class="o">.</span><span class="n">text_field</span> <span class="ss">:subject</span> <span class="sx">%&gt;&lt;/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'> <span class="o">&lt;</span><span class="sx">%= f.label :content, &quot;內容&quot; %&gt;</span>
+</span><span class='line'><span class="sx"> &lt;p&gt;&lt;%=</span> <span class="n">f</span><span class="o">.</span><span class="n">text_area</span> <span class="ss">:content</span> <span class="sx">%&gt;&lt;/p&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>呼叫時不加底線</li>
+</ul>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="o">&lt;</span><span class="sx">%= render :partial =</span><span class="o">&gt;</span> <span class="n">form_post</span><span class="s2">&quot; %&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>可以傳實例變數（@開頭的變數）</li>
+</ul>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="o">&lt;</span><span class="sx">%= render :partial =</span><span class="o">&gt;</span> <span class="s2">&quot;hot_keywords&quot;</span><span class="p">,</span> <span class="ss">:locals</span> <span class="o">=&gt;</span> <span class="p">{</span><span class="ss">:category</span> <span class="o">=&gt;</span> <span class="vi">@category</span><span class="p">,</span> <span class="ss">:a</span> <span class="o">=&gt;</span> <span class="mi">1</span><span class="p">}</span> <span class="o">%&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
 
 <h2>優點</h2>
 
 <ul>
 <li>Don&#8217;t repeat yourself（DRY）程式碼不重複</li>
-<li>Good Encapsulation，好的封裝性</li>
-<li>提供view模板良好的組織</li>
-<li>修改程式碼方便</li>
+<li>程式修改會比較清楚</li>
+<li>Partial 樣板比較容易被重複使用</li>
 </ul>
 
 
 <h2>參考資料</h2>
 
 <ul>
-<li><a href="http://redmine.techbang.com.tw/attachments/3776/CustomRailsHelpers.pdf">http://redmine.techbang.com.tw/attachments/3776/CustomRailsHelpers.pdf</a></li>
-<li>Ruby for Rails－Rails 開發者必備的 Ruby 學習手冊 (Ruby for Rails: Ruby Techniques for Rails Developers)</li>
+<li>http://api.rubyonrails.org/classes/ActionView/Partials.html</li>
+<li>http://ionrails.com/2009/08/08/rails-partial-templates/</li>
+<li>http://ihower.tw/rails3/actionview.html</li>
 </ul>
 
 </div>
@@ -157,7 +170,7 @@
 
 
 
-<time datetime="2011-10-17T16:06:00+08:00" pubdate  data-updated="true" >Oct 17<span>th</span>, 2011</time>
+<time datetime="2011-10-18T00:12:00+08:00" pubdate  data-updated="true" >Oct 18<span>th</span>, 2011</time>
       
 
 
@@ -165,7 +178,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://techbang.github.com/erk/what-is-helper/" data-via="" data-counturl="http://techbang.github.com/erk/what-is-helper/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://techbang.github.com/erk/what-is-partial/" data-via="" data-counturl="http://techbang.github.com/erk/what-is-partial/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -177,9 +190,11 @@
 
     
     <p class="meta">
+       
+        <a class="basic-alignment left" href="/erk/what-is-helper/" title="Previous Post: 什麼是 helper">&laquo; 什麼是 helper</a>
       
        
-        <a class="basic-alignment right" href="/erk/what-is-partial/" title="next Post: what is partial">what is partial &raquo;</a>
+        <a class="basic-alignment right" href="/erk/partial-or-helper/" title="next Post: partial or helper">partial or helper &raquo;</a>
       
     </p>
   </footer>
