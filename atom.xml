@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Essential Ruby/Rails Knowledge]]></title>
   <link href="http://xdworks.github.com/erk/atom.xml" rel="self"/>
   <link href="http://xdworks.github.com/erk/"/>
-  <updated>2011-10-17T15:44:01+08:00</updated>
+  <updated>2011-10-17T15:53:33+08:00</updated>
   <id>http://xdworks.github.com/erk/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
-    
+    <name><![CDATA[xdite]]></name>
+    <email><![CDATA[xuite.joke@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
