@@ -4,3 +4,10 @@ octocat:
   email: felis_octoped@example.com
   blog: http://www.example.com/
   description: "A Cat with Eight Feet"
+
+chitsaou:
+  name: Yu-Cheng Chuang
+  twitter: yorkxin
+  email: ducksteven@gmail.com
+  blog: http://blog.yorkxin.org/
+  description: "a.k.a. chitsaou, a Rails developer"
