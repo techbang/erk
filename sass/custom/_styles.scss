@@ -8,6 +8,10 @@
   .author-pic {
     float: left;
     margin: 8px;
+    img {
+      width: 80px;
+      height: 80px;
+    }
   }
 
   .author-about {
